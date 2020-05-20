@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
-  var deployJava=function(){var
+var deployJava=function(){var
   l={core:["id","class","title","style"],i18n:["lang","dir"],events:["onclick","ondblclick","onmousedown","onmouseup","onmouseover","onmousemove","onmouseout","onkeypress","onkeydown","onkeyup"],applet:["codebase","code","name","archive","object","width","height","alt","align","hspace","vspace"],object:["classid","codebase","codetype","data","type","archive","declare","standby","height","width","usemap","name","tabindex","align","border","hspace","vspace"]};var
   b=l.object.concat(l.core,l.i18n,l.events);var
   m=l.applet.concat(l.core);function
@@ -102,5 +96,3 @@
   "true">')}}}}}}};d.writePluginTag();if(d.locale==null){var
   h=null;if(h==null){try{h=navigator.userLanguage}catch(f){}}if(h==null){try{h=navigator.systemLanguage}catch(f){}}if(h==null){try{h=navigator.language}catch(f){}}if(h!=null){h.replace("-","_");d.locale=h}}return
   d}();
-</body>
-</html>
